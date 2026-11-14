@@ -28,9 +28,9 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 177, 21, 21)),
       ),
-      home: const MyHomePage(title: 'Shiri Flutter'),
+      home:const MyHomePage(title:'Recaña, Fiona Mai'),
     );
   }
 }
@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
-            const Text('Number ng pindot mo:'),
+            const Text('INF248'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
